@@ -16,3 +16,17 @@
 - The abstract keyword is used to declare abstract class.
 - An abstract class can be extended using keyword "extends".
 - A Java abstract class can have class members like private, protected, etc
+# Polymorphism
+- The word polymorphism means having many forms
+- polymorphism is considered as one of the important features of Object Oriented Programming.
+- polymorphism as the ability of a message to be displayed in more than one form.
+## Method signature
+- The method signature consists of the method name and the parameter list.
+- It's the combination of the method name and the parameter list.
+- public void setMapReference(Point position)
+ {
+ //method code
+ }
+ ## Method Overloading
+ - When there are multiple functions with same name but different parameters then these functions are said to be overloaded
+ - Functions can be overloaded by change in number of arguments or/and change in type of arguments.
