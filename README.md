@@ -76,3 +76,6 @@
 - It is not supported in java
 - a->b,b->a
 - It is in a cyclic form
+# packages
+- pacakage is used to group related classes. 
+- We use packages to avoid name conflicts, and to write a better maintainable code.
