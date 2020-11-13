@@ -12,10 +12,19 @@ class about_arraylistinterface{
 		list.add("lakshmi");
 		System.out.println(list);
 	Iterator <String> it=list.iterator();
+	String s ="";
 	while(it.hasNext()) {
-		System.out.println(it.next());
+		
+	s=(String)it.next();
+		
+		if(s.equals("yashu")){
+			it.remove();
     }
-	it.remove();
-	System.out.println(it);
-}
+	}
+				System.out.println("after remove method : ");
+
+			System.out.println(list);
+
+	}
+
 }
